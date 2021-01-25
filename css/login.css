@@ -1,0 +1,49 @@
+*{font-family: 'Tajawal', sans-serif;}
+html , body {
+    direction: rtl;
+    background: #fff;
+    /* height: 100%; */
+    font-family: 'Tajawal', sans-serif;
+
+}
+a , a:hover , a:focus {color: #fff; text-decoration:none ; }
+
+.container {
+    border: 1px solid  #6c757d1c ;
+    -webkit-box-shadow: 18px 21px 24px -2px #6c757d73;
+    box-shadow: 22px 28px 24px -4px #6c757d73;
+}
+h1{color: #fff; text-align: center;margin-bottom: 40px;}
+.col0{
+    padding: 5%;
+    background: #665dfe ;
+}
+.box {
+    margin: 64px;
+    height: 100%;
+}
+.card {
+    margin-top:15%;
+}
+.form-control-lg{border-radius: 10rem; font-size: 12px;text-align: center;}
+input{
+    color: white;
+    background: #5047f2;
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+}
+input::placeholder{ color: white;}
+input:focus{ outline : none;}
+.btn-danger { border-radius: 10rem;background: #f56045;border:#f56045; }
+.btn-danger:hover ,.btn-danger:focus{background:  #e45035; border:#e45035 ;}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #5047f2  inset !important;
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: #fff !important;
+}
+.invalid-feedback {color:#f1ad6cf7;text-align: center }
